@@ -9,7 +9,7 @@ on:
 jobs:
   main:
     name: Nx Cloud - Main Job
-    uses: zackderose/ci/.github/workflows/nx-cloud-main.yml@0.0.1
+    uses: ZackDeRose/ci/.github/workflows/nx-cloud-main.yml@0.0.1
     with:
       main-branch-name: main
       number-of-agents: 3
@@ -27,6 +27,6 @@ jobs:
 
   agents:
     name: Nx Cloud - Agents
-    uses: zackderose/ci/.github/workflows/nx-cloud-agents.yml@0.0.1
+    uses: ZackDeRose/ci/.github/workflows/nx-cloud-agents.yml@0.0.1
     with:
       number-of-agents: 3
